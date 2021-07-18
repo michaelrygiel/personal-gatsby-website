@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 import {
+  navContainer,
   navLinks,
   navLinkItem,
   navLinkText
@@ -8,11 +9,16 @@ import {
 
 const Nav = () => {
   return (
-    <nav>
+    <nav className={navContainer}>
         <ul className={navLinks}>
           <li className={navLinkItem}>
               <Link to="/" className={navLinkText}>
               Home
+              </Link>
+          </li>
+          <li className={navLinkItem}>
+              <Link to="/projects" className={navLinkText}>
+              Projects
               </Link>
           </li>
           <li className={navLinkItem}>
