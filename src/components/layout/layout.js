@@ -12,11 +12,18 @@ const Layout = ({ pageTitle, children }) => {
       <Header/>
       <Navigation/>
       <main>
-        <title>{pageTitle}</title>
+        <title>{pageTitle} | Michael Rygiel</title>
         <h2 className={heading}>{pageTitle}</h2>
         {children}
       </main>
-      <footer>
+      <footer style={{ 
+        marginTop: '2rem', 
+        paddingTop: '1rem', 
+        borderTop: '1px solid #e0e0e0',
+        textAlign: 'center',
+        color: '#666',
+        fontSize: '0.9rem'
+      }}>
         © Michael Rygiel {(new Date().getFullYear())}
       </footer>
     </div>

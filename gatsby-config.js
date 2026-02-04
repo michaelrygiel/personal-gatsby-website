@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "personal-gatsby-website",
+    siteUrl: "https://michaelrygiel.com",
+    title: "Michael Rygiel - Software Engineer",
+    description: "Personal website of Michael Rygiel, Senior Software Engineer at Google specializing in applied AI and full-stack systems.",
+    author: "Michael Rygiel",
   },
   plugins: [],
 };

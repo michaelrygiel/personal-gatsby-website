@@ -1,15 +1,23 @@
 .navContainer {
-    border-top: 1px solid gray;
-    border-bottom: 1px solid gray;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1.5rem;
 }
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    justify-content: center;
 }
 .nav-link-item {
-    padding-right: 2rem;
+    padding: 0 1.5rem;
 }
 .nav-link-text {
-    color: black;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+.nav-link-text:hover {
+    color: #3498db;
 }
